@@ -7,6 +7,7 @@ public class Demo {
 	public static void main(String[] args) {
 				
 		Observer enter=new Enter();
+		
 		EnterClickListener el1=new Element1();
 		EnterClickListener el2=new Element2();
 		EnterClickListener el3=new Element3();
