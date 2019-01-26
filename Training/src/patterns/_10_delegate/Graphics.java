@@ -48,7 +48,7 @@ class Cyrcle implements Graphicable{
 	
 }
 
-class Painter implements Graphicable{
+class Painter{
 	
 	private Graphicable g;
 	
@@ -56,7 +56,6 @@ class Painter implements Graphicable{
 		this.g=g;
 	}
 	
-	@Override
 	public void draw() {
 		g.draw();		
 	}
