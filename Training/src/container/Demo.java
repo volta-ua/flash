@@ -16,7 +16,7 @@ public class Demo {
 		arr.put("могилі");
 		arr.put("серед");
 		arr.put("степу");
-		arr.put("ширрокого");
+		arr.put("широкого");
 		arr.put("на");
 		arr.put("Вкраїні");
 		arr.put("милій");
