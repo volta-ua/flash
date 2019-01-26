@@ -13,8 +13,8 @@ public class FactoryMathodApp2 {
 		Watch myWatch1=obj1.createWatch();
 		myWatch1.showTime();
 		
-		String h=null;
-		WatchMaker obj2=FactoryMathodApp2.getMakerByName(h);
+		//String s=null;
+		WatchMaker obj2=getMakerByName("Roman");
 		obj2.createWatch().showTime();		
 	}
 	
