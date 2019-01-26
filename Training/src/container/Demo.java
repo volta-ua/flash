@@ -6,20 +6,20 @@ public class Demo {
 		
 		MyArray arr=new MyArray();
 		
-		arr.put("Як");
-		arr.put("умру");
-		arr.put("то");
-		arr.put("поховайте");
+		arr.put("РЇРє");
+		arr.put("СѓРјСЂСѓ");
+		arr.put("С‚Рѕ");
+		arr.put("РїРѕС…РѕРІР°Р№С‚Рµ");
 		arr.put(null);
-		arr.put("мене");
-		arr.put("на");
-		arr.put("могилі");
-		arr.put("серед");
-		arr.put("степу");
-		arr.put("широкого");
-		arr.put("на");
-		arr.put("Вкраїні");
-		arr.put("милій");
+		arr.put("РјРµРЅРµ");
+		arr.put("РЅР°");
+		arr.put("РјРѕРіРёР»С–");
+		arr.put("СЃРµСЂРµРґ");
+		arr.put("СЃС‚РµРїСѓ");
+		arr.put("С€РёСЂСЂРѕРєРѕРіРѕ");
+		arr.put("РЅР°");
+		arr.put("Р’РєСЂР°С—РЅС–");
+		arr.put("РјРёР»С–Р№");
 		
 		for (int i=0;i<15;i++)
 			System.out.println(arr.get());
