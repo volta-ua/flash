@@ -11,8 +11,7 @@ public class CachingApp {
 			input=Double.parseDouble(JOptionPane.showInputDialog("Enter the value"));
 			System.out.print(input+"\t");
 			
-			
-			
+						
 			output=doCalc(input);
 			System.out.println(output);
 		}
