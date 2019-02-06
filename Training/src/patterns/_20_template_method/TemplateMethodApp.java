@@ -20,18 +20,29 @@ abstract class C{
 		System.out.print(1);
 		differ();
 		System.out.print(3);
+		differ2();
 	}
 	abstract void differ();
+	abstract void differ2();
 }
 
 class A extends C{
 	void differ() {
 		System.out.print(2);
+	}
+
+	@Override
+	void differ2() {
+		System.out.print(6);		
 	}	
 }
 
 class B extends C{
 	void differ() {
 		System.out.print(4);
+	}
+
+	@Override
+	void differ2() {		
 	}
 }
