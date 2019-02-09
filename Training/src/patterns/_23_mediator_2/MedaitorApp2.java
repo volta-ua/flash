@@ -44,7 +44,6 @@ abstract class User{
 	public String toString() {
 		return "User [name=" + name + "]";
 	}	
-	
 }
 
 class Admin extends User{
