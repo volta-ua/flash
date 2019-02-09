@@ -70,7 +70,7 @@ class TextChat implements Chat{
 			this.admin=admin;
 			//users.add(admin);
 		}else
-			throw new RuntimeException("is not permittred");
+			throw new RuntimeException("is not permittred!");
 	}
 	
 	public void addUser(User user) {
