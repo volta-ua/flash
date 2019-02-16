@@ -11,5 +11,7 @@ public class Starter {
 }
 
 class myClass{
+	
 	String s="Hello World";
+	
 }
