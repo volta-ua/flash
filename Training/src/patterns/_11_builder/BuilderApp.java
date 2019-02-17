@@ -6,8 +6,9 @@ public class BuilderApp {
 		CarBuilder carBuilder=new CarBuilder("BMW",Transmission.AUTO,190);
 		System.out.println(carBuilder);
 	}
-
+	
 }
+
 enum Transmission{
 	MANUAL, AUTO
 }
