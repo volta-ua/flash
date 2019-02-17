@@ -17,7 +17,7 @@ public class Analyser {
 		Country c4=new Country("United Kingdom",65,295,"London");
 		Country c5=new Country("Turkey",66,650,"Ankara");
 		
-		Set<Country> set=new TreeSet();
+		Set<Country> set=new TreeSet();		
 		set.add(c1);
 		set.add(c2);
 		set.add(c3);
