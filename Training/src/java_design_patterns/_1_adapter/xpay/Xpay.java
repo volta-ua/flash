@@ -14,7 +14,6 @@ public interface Xpay {
 	public void setCardExpMonth(String CardExpMonth);
 	public void setCardExpYear(String CardExpYear);
 	public void setCardCVVNo(Short CardCVVNo);
-	public void setAmount(Double Amount);
-	
+	public void setAmount(Double Amount);	
 
 }
