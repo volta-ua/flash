@@ -10,7 +10,7 @@ public class Demo {
 	public static void main(String[] args) {
 		
 		Xpay xpay=new XpayImpl();
-		xpay.setCustomerName("David Backham");
+		xpay.setCustomerName("David Backham MU");
 		xpay.setCreditCardNo("1234567890");
 		xpay.setCardExpYear("2018");
 		xpay.setCardExpMonth("08");
