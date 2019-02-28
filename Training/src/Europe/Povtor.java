@@ -9,8 +9,7 @@ import java.util.TreeSet;
 
 public class Povtor implements Comparable<Povtor> {
 	
-	private String s;
-	
+	private String s;	
 	
 	@Override
 	public String toString() {
