@@ -42,13 +42,11 @@ public class Analyser {
 	}
 
 	 private static void print(Collection col) {		
-		Iterator<Country> it=col.iterator();
-		
+		Iterator<Country> it=col.iterator();		
 		while(it.hasNext()) {
 			Country c=it.next();
 			System.out.println(c);
-		}
-		
+		}		
 	}
 
 }
