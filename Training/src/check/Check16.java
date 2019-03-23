@@ -22,12 +22,15 @@ public class Check16 {
 }
 
 class A1{
+	
 	A1(){
 		System.out.println("A");
 	}
+	
 	String doF() {
 		System.out.println("doF");
 		return null;
 	}
+	
 }
 
