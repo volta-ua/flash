@@ -3,10 +3,22 @@
   <display-name>Project_NP</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>MobileController</display-name>
+    <servlet-name>MobileController</servlet-name>
+    <servlet-class>control.MobileController</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description></description>
+    <display-name>Performer</display-name>
+    <servlet-name>Performer</servlet-name>
+    <servlet-class>control.Performer</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+
 </web-app>

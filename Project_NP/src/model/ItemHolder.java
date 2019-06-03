@@ -8,7 +8,7 @@ public class ItemHolder {
 	
 	private Map<String,Item> itemsMap;
 	
-	ItemHolder(){
+	public ItemHolder(){
 		itemsMap=new HashMap<String,Item>();
 	}
 	
