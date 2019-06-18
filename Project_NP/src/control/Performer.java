@@ -4,7 +4,7 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
-import database.Connector;
+import dao.Connector;
 
 /**
  * Servlet implementation class Performer
@@ -18,13 +18,13 @@ public class Performer extends HttpServlet {
      */
     public Performer() {
         super();
-        System.out.println("init");
+        
         Connector.printAllData();
     }
     
     public void init() throws ServletException
     {
-    	System.out.println("pre");
+    	System.out.println("init");
     	Connector.printAllData();
     }
 

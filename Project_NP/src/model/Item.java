@@ -4,12 +4,12 @@ public class Item {
 	
 	private String id;
 	private String name;
-	private int amount;
+	private String mobile;
 	
-	public Item(String id, String name, int amount) {
+	public Item(String id, String name, String mobile) {
 		this.id = id;
 		this.name = name;
-		this.amount = amount;
+		this.mobile = mobile;
 	}
 		
 	public String getId() {
@@ -28,20 +28,20 @@ public class Item {
 		this.name = name;
 	}
 	
-	public int getAmount() {
-		return amount;
+	public String getMobile() {
+		return mobile;
 	}
 
-	public void setAmount(int amount) {
-		this.amount = amount;
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + amount;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((mobile == null) ? 0 : mobile.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
@@ -55,12 +55,15 @@ public class Item {
 		if (getClass() != obj.getClass())
 			return false;
 		Item other = (Item) obj;
-		if (amount != other.amount)
-			return false;
 		if (id == null) {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
+			return false;
+		if (mobile == null) {
+			if (other.mobile != null)
+				return false;
+		} else if (!mobile.equals(other.mobile))
 			return false;
 		if (name == null) {
 			if (other.name != null)
@@ -72,7 +75,7 @@ public class Item {
 
 	@Override
 	public String toString() {
-		return "Item [id=" + id + ", name=" + name + ", amount=" + amount + "]";
+		return "Item [id=" + id + ", name=" + name + ", mobile=" + mobile + "]";
 	}
 
 	
