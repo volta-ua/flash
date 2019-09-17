@@ -7,8 +7,7 @@ public class ProcessText {
 		if (s==null){
 			return null;
 		}
-		String result;
-		result=s.replaceAll("[^0-9]", "");
+		String result=s.replaceAll("[^0-9]", "");
 		System.out.println("processMobileInput\t"+result);
 		return result;
 	}
